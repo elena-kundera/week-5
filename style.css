@@ -1,0 +1,82 @@
+
+            .site {
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+                justify-content: space-between;
+            }
+
+            .head {
+                display: flex;
+                justify-content: center;
+                background-color: gray;
+                height: 9vh;
+                flex: 0 0 content;
+                margin: 0;
+            }
+
+
+            .foot {
+                background-color: gray;
+                height: 9vh;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            .box {
+                background-color: white;
+                height: 60%;
+                flex-basis: content;
+                padding: 5px;
+                margin: 10px;
+            }
+
+            .main-items {
+                display: flex;
+                justify-content: space-between;
+                height: 80vh;
+                margin: 0;
+            }
+
+            .section-items {
+                background-color: bisque;
+                flex-basis: 70vw;
+            }
+
+            .aside-bar {
+                background-color: lightgreen;
+                flex-basis: 30vw;
+            }
+
+            h2, h3 {
+                text-align: center;
+            }
+
+            .content2, .content3, .content4 {
+                align-items: flex-end;
+                background-color: darksalmon;
+                padding: 10px;
+
+            }
+
+            .content1 {
+                display: flex;
+                justify-content: space-around;
+                height: 70vh;
+                flex-wrap: wrap;
+                align-content: center;
+                gap: 10px;
+                margin: 10px;
+            }
+
+            .content2, .content3 {
+                height: 50px;
+                flex-basis: 300px;
+                
+            }
+
+            .content4 {
+                height: 50px;
+                flex-basis: 100%;
+            }
